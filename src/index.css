@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Custom CSS */
+.thumbs{
+    display: flex;
+    justify-content: center;
+}
+.carousel .thumb{
+    border: 3px solid #fff;
+}
+.carousel .thumb.selected{
+    border: 3px solid #f34e3a;
+}
+
+
+.navItems .active {
+    color: #f34e3a;
+    font-weight: 700;
+}

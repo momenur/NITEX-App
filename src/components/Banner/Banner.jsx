@@ -5,10 +5,11 @@ import slider2 from '../../assets/images/bannerImages/nitexBanner2.jpg'
 import slider3 from '../../assets/images/bannerImages/nitexBanner3.jpg'
 import slider4 from '../../assets/images/bannerImages/nitexBanner4.jpg'
 import slider5 from '../../assets/images/bannerImages/nitexBanner5.jpg'
+
 const Banner = () => {
     return (
-        <div>
-            <Carousel showArrows={false} infiniteLoop={true} autoPlay={true}>
+        <header id="home" className="pb-20 border-b-[1px] border-b-gray-100">
+            <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} stopOnHover={true}>
                 <div>
                     <img src={slider1}/>
                 </div>
@@ -25,7 +26,7 @@ const Banner = () => {
                     <img src={slider5}/>
                 </div>
             </Carousel>
-        </div>
+        </header>
     );
 };
 
