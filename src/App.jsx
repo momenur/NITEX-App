@@ -1,11 +1,14 @@
 import './App.css'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
   return (
-    <>
-      <h1 className='text-7xl'>Test NETIX</h1>
-    </>
+    <div className="w-full h-auto bg-[#111111]">
+      <div className="px-4 mx-auto lg:px-16 max-w-screen-2xl">
+        <Navbar />
+      </div>
+    </div>
   )
 }
 
