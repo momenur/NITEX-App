@@ -8,7 +8,6 @@ import { photos } from "../../assets/galleryPhotos";
 
 
 const Instructors = () => {
-    console.log(photos);
     return (
         <section id="instructors" className="pb-20 border-b-[1px] border-b-gray-100">
             <Title title="Our Instructors" description="Inspired trainers lead your fitness journey" />
