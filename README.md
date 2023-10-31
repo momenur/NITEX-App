@@ -6,11 +6,24 @@
 <hr>
 
 
+## :NITEX GYM LIVE SITE
+- Live Link:  https://654109acad7b2a08b29d4942--neon-gumption-defc42.netlify.app
 
-## :white_check_mark: Requirements
+# Installation
+Clone the repository:
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+```
+git clone https://github.com/momenur/NITEX-App.git
+```
 
-## :Live Link
+# Technologies Used
+- React.Js
+- Tailwind CSS
 
+  
+### Contact
+If you have any questions, feel free to reach out to the project maintainer:
+
+- Name: Momenur Islam
+- Email: momenurislam6@gmail.com
 
