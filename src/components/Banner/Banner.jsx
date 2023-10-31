@@ -9,7 +9,7 @@ import slider5 from '../../assets/images/bannerImages/nitexBanner5.jpg'
 const Banner = () => {
     return (
         <header id="home" className="pb-20 border-b-[1px] border-b-gray-100">
-            <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} stopOnHover={true}>
+            <Carousel showArrows={true} infiniteLoop={true} autoPlay={false}>
                 <div>
                     <img src={slider1}/>
                 </div>

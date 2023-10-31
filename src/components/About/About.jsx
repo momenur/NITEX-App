@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section id="about" className='pb-20 border-b-[1px] border-b-gray-100'>
             <Title title="About us" description="23 Years of Fitness Excellence" />
-            <div className='grid items-center justify-center grid-cols-2 gap-10'>
+            <div className='grid items-center justify-center grid-cols-1 gap-10 sm:grid-cols-2'>
                 <div className='text-gray-400'>
                     <h1 className='pb-2 text-4xl font-bold'>Unleashing Your <span className='text-[#f34e3a] border-[#f34e3a] border-b-[2px]'>Potential</span></h1>
                     <small className='text-[#f34e3a]'>Since 2000 - 2023</small>

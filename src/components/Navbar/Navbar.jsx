@@ -7,12 +7,12 @@ import { Link } from "react-scroll";
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
     return (
-            <nav className="sticky top-0 z-50 flex items-center justify-between w-full h-20 text-lg pe-6">
+            <nav className="sticky top-0 z-50 flex items-center justify-between w-full h-20 text-lg font-bold bg-[#111111] pe-6">
                 <button className="h-12 px-4 text-base tracking-wide text-white uppercase bg-transparent border-transparent"><a className="text-2xl font-semibold text-[#f34e3a]">NITEX GYM</a></button>
                 <div className="bg-red">
                     <ul className="items-center hidden gap-6 navItems lg:gap-10 md:inline-flex">
                         {
-                            navLinksdata.map(data => <li className="font-normal tracking-wide text-white duration-500 cursor-pointer" key={data._id}>
+                            navLinksdata.map(data => <li className="font-bold tracking-wide text-white duration-500 cursor-pointer" key={data._id}>
                                 <Link
                                     activeClass="active"
                                     to={data.link}
