@@ -1,25 +1,16 @@
 export const photos = [
-    { src: "https://i.ibb.co/x6RdvYg/Fit-young-woman-lifting-barbells-looking-focused-working-out-gym.jpg", width: 800, height: 600 },
-
-    { src: "https://i.ibb.co/zF7NTLj/Gym-fitness-concept.jpg", width: 1600, height: 900 },
-
-    { src: "https://i.ibb.co/x6RdvYg/Fit-young-woman-lifting-barbells-looking-focused-working-out-gym.jpg", width: 400, height: 600 },
-
-    { src: "https://i.ibb.co/zF7NTLj/Gym-fitness-concept.jpg", width: 1200, height: 800 },
-
-    { src: "https://i.ibb.co/x6RdvYg/Fit-young-woman-lifting-barbells-looking-focused-working-out-gym.jpg", width: 800, height: 500 },
-
-    { src: "https://i.ibb.co/zF7NTLj/Gym-fitness-concept.jpg", width: 800, height: 600 },
-    { src: "https://i.ibb.co/x6RdvYg/Fit-young-woman-lifting-barbells-looking-focused-working-out-gym.jpg", width: 800, height: 600 },
-    { src: "https://i.ibb.co/zF7NTLj/Gym-fitness-concept.jpg", width: 1600, height: 900 },
-    { src: "https://i.ibb.co/x6RdvYg/Fit-young-woman-lifting-barbells-looking-focused-working-out-gym.jpg", width: 800, height: 600 },
-    { src: "https://i.ibb.co/zF7NTLj/Gym-fitness-concept.jpg", width: 1600, height: 900 },
-
-    { src: "https://i.ibb.co/x6RdvYg/Fit-young-woman-lifting-barbells-looking-focused-working-out-gym.jpg", width: 800, height: 600 },
-
-    { src: "https://i.ibb.co/zF7NTLj/Gym-fitness-concept.jpg", width: 1600, height: 900 },
-
-    { src: "https://i.ibb.co/x6RdvYg/Fit-young-woman-lifting-barbells-looking-focused-working-out-gym.jpg", width: 800, height: 600 },
-
-    { src: "https://i.ibb.co/zF7NTLj/Gym-fitness-concept.jpg",  width: 1600, height: 900 },
+    { _id: "101", src: "https://i.ibb.co/YQFw9BC/Gallery14.jpg", width: 800, height: 600 },
+    { _id: "102", src: "https://i.ibb.co/NjJ5BYb/Gallery13.jpg", width: 1600, height: 900 },
+    { _id: "103", src: "https://i.ibb.co/1rnB2xK/Gallery12.jpg", width: 400, height: 600 },
+    { _id: "104", src: "https://i.ibb.co/tzGTcQp/Gallery11.jpg", width: 1200, height: 800 },
+    { _id: "105", src: "https://i.ibb.co/Lx4Dtz6/Gallery10.jpg", width: 300, height: 550 },
+    { _id: "106", src: "https://i.ibb.co/mXrpbLd/Gallery9.jpg", width: 800, height: 600 },
+    { _id: "107", src: "https://i.ibb.co/74F2jSn/Gallery8.jpg", width: 800, height: 600 },
+    { _id: "108", src: "https://i.ibb.co/MpzbK9t/Gallery7.jpg", width: 1600, height: 900 },
+    { _id: "109", src: "https://i.ibb.co/g32fGQj/Gallery5.jpg", width: 800, height: 600 },
+    { _id: "110", src: "https://i.ibb.co/JQJBJxr/Gallery4.jpg", width: 1600, height: 900 },
+    { _id: "111", src: "https://i.ibb.co/1963Fdz/Gallery1.jpg", width: 800, height: 600 },
+    { _id: "112", src: "https://i.ibb.co/Nny6hpn/Gallery.jpg", width: 1600, height: 900 },
+    { _id: "113", src: "https://i.ibb.co/fkkPgjx/Gallery3.jpg", width: 800, height: 600 },
+    { _id: "114", src: "https://i.ibb.co/zF7NTLj/Gym-fitness-concept.jpg", width: 1600, height: 900 },
 ];

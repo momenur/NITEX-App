@@ -11,19 +11,19 @@ const Banner = () => {
         <header id="home" className="pb-20 border-b-[1px] border-b-gray-100">
             <Carousel showArrows={true} infiniteLoop={true} autoPlay={false}>
                 <div>
-                    <img src={slider1}/>
+                    <img src={slider1} />
                 </div>
                 <div>
-                    <img src={slider2}/>
+                    <img src={slider2} />
                 </div>
                 <div>
-                    <img src={slider3}/>
+                    <img src={slider3} />
                 </div>
                 <div>
-                    <img src={slider4}/>
+                    <img src={slider4} />
                 </div>
                 <div>
-                    <img src={slider5}/>
+                    <img src={slider5} />
                 </div>
             </Carousel>
         </header>

@@ -10,18 +10,19 @@ import Services from './components/Services/Services'
 import Testimonial from './components/Testimonial/Testimonial'
 
 function App() {
+  
   return (
     <div className="w-full h-auto bg-[#111111]">
       <div className="px-4 mx-auto text-white lg:px-16 max-w-screen-2xl">
         <Navbar />
-        <Banner/>
-        <About/>
-        <Services/>
-        <Gallery/>
-        <Instructors/>
-        <Testimonial/>
-        <Contact/>
-        <Footer/>
+        <Banner />
+        <About />
+        <Services />
+        <Gallery />
+        <Instructors />
+        <Testimonial />
+        <Contact />
+        <Footer />
       </div>
     </div>
   )

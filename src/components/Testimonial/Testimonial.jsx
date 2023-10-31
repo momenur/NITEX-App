@@ -9,7 +9,7 @@ const Testimonial = () => {
     return (
         <section id="testimonial" className="pb-20 border-b-[1px] border-b-gray-100">
             <Title title="Testimonials" description="What our Member Say?" />
-            <div>
+            <div data-aos="zoom-in">
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
 
                     {
@@ -22,9 +22,9 @@ const Testimonial = () => {
                             <div className="flex items-center justify-center">
                                 <img className="w-[100px] mb-8 " src={quote} alt="" />
                             </div>
-                            <div className="px-32 text-center">
+                            <div className="text-center sm:px-32">
                                 <p>{item.details}</p>
-                                <h3 className="mt-4 text-3xl text-yellow-500">{item.name}</h3>
+                                <h3 className="mt-4 text-3xl text-[#f34e3a]">{item.name}</h3>
                             </div>
                         </SwiperSlide>)
                     }

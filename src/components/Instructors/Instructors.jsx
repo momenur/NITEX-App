@@ -4,8 +4,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import { FreeMode, Pagination } from 'swiper/modules';
-import { photos } from "../../assets/galleryPhotos";
-
+import { instructorData } from "../../assets/instructorData";
 
 const Instructors = () => {
     return (
@@ -23,8 +22,9 @@ const Instructors = () => {
                     className="mySwiper"
                 >
                     {
-                        photos.map(photo => <SwiperSlide key={Math.random(10)}>
-                            <img src={photo.src} alt="" />
+                        instructorData.map(photo => <SwiperSlide key={photo._id}>
+                            <img className="relative" src={photo.src} alt="" data-aos="zoom-out" />
+                            <p className="absolute text-xl font-bold sm:text-2xl left-4 bottom-4">{photo.name}</p>
                         </SwiperSlide>)
                     }
                 </Swiper>

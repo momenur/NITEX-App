@@ -1,6 +1,7 @@
 import { BsGithub } from "react-icons/bs";
 import contactImg from "../../assets/images/otherImages/contact.jpg";
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+
 const ContactLeft = () => {
     return (
         <div className="w-[95%] lg:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-8 rounded-lg" data-aos="zoom-in-right">
@@ -11,7 +12,7 @@ const ContactLeft = () => {
                     <p className="text-lg font-normal text-gray-400">Transform Your Body && Performance.</p>
                     <p className="text-base tracking-wide text-gray-400">Address: Block A-12, House #78, Road #04, Middle Badda Bazar Road, Dhaka, Bangladesh.</p>
                     <p className="flex items-center gap-2 text-base text-gray-400">Phone: <span className="text-lightText">+8801755-772447</span></p>
-                    <p className="flex items-center gap-2 text-base text-gray-400">Email: {" "} <span className="text-lightText">momenurislam6@gmail.com</span></p>
+                    <p className="flex items-center gap-2 text-base text-gray-400 ">Email:<span className="text-sm text-lightText">nitex.com</span></p>
                     <div>
                         <h3 className="mb-4 text-base uppercase">find Ous in</h3>
                         <div className="flex gap-4">
