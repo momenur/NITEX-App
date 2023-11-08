@@ -19,6 +19,7 @@ git clone https://github.com/momenur/NITEX-App.git
 # Technologies Used
 - React.Js
 - Tailwind CSS
+- This Website Fully Responsive (Mobile || Teblet || Leptop)
 
   
 ### Contact
